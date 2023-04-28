@@ -32,7 +32,7 @@ const Header = () => {
                             <Nav.Link href="#pricing">Profile</Nav.Link>
                         </Nav>
                         <Nav>
-                            <Nav.Link href="#deets"><FaUserCircle style={{fontSize:'2rem'}}></FaUserCircle></Nav.Link>
+                            <Nav.Link href="#dee"><FaUserCircle style={{fontSize:'2rem'}}></FaUserCircle></Nav.Link>
                             <Link to="/login"><Button variant='success'>Login</Button></Link>
                         </Nav>
                     </Navbar.Collapse>
