@@ -8,9 +8,9 @@ const router = createBrowserRouter([
         element: <Main></Main>,
         children:[
             {
-                path:'category',
+                path:'/',
                 element:<Category></Category>,
-            }
+            },
         ]
     }
 ])
