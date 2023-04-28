@@ -4,10 +4,20 @@ import { Outlet } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div>
-            <Header></Header>
-            <Outlet></Outlet>
-        </div>
+        <Container>
+           
+            <Row>
+                <Col sm>
+                    
+                </Col>
+                <Col sm>
+
+                </Col>
+                <Col sm>
+                    
+                </Col>
+            </Row>
+        </Container>
     );
 };
 
